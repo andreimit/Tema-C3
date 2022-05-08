@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300;1,400&display=swap');
+html {
+  font-size: 62.5%; 
+}
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 400px;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(255, 245, 235);
+  border-bottom: 1px solid black;
+  min-width: 400px;
+  width: 100%; 
+  overflow: hidden;
+  
+}
+
+div#remove ul{
+  list-style-type: none;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.remove ul{
+  list-style-type: none;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 245, 235);
+  border-bottom: 1px solid black;
+  min-width: 400px;
+  width: 100%; 
+  overflow: hidden;
+  gap: 5rem;
+}
+div#container2 ul li{
+  list-style-type: none;
+}
+.right_container{
+  width: 200px;
+}
+
+#container3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 245, 235);
+  min-width: 400px;
+  width: 100%; 
+  overflow: hidden;
+  
+}
+div#container3 ul li{
+  list-style-type: none;
+}
+
+.right-stuff{
+  width: 1fr;
+  
+}
+.left-stuff{
+  width: 200px;
+}
+
+#container4{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: rgb(210, 186, 186);
+  min-width: 400px;
+  width: 100%; 
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+div#container4 ul li{
+  list-style-type: none;
+}
+
+.left-things ul li span{
+  background-color: gray;
+  border-radius: 5px;
+}
+ 
+.image img{
+  display: flex;
+  justify-content: baseline;
+  width: 200px;
+  height:150px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

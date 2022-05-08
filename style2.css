@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300;1,400&display=swap');
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 600px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.portfolio{
+    text-align: center;
+}
+
+
+.container1{
+  display: flex;
+  background-color: rgb(255, 245, 235);
+  border: 1px solid;
+  border-radius: 8px;
+  width: 300px;
+  width: 100%; 
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 0 5px 0;
+}
+.container1 ul li span{
+  background-color: gray;
+  border-radius: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.image img{
+    width: 220px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.section2{
+    display: flex;
+    gap: 2rem;
+}
+.section2 ul li span{
+  background: gray;
+  border-radius: 5px;
+}
+.container2{
+    display: flex;
+    border-radius: 12px;
+    background-color: rgb(255, 245, 235);
+    border: 1px solid;
+    border-radius: 8px;
+    width: 300px;
+    min-height: 300px;
+    overflow: hidden;   
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0 0 5px 0;
+  }
+  
+
+  .image2 img{
+      width: 250px;
+      height:200px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+
+  .container3{
+    display: flex;
+    border-radius: 12px;
+    background-color: rgb(255, 245, 235);
+    border: 1px solid;
+    border-radius: 8px;
+    width: 300px;
+    min-height: 300px;
+    overflow: hidden;   
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0 0 5px 0;
+  }
+
+  .image3 img{
+      width: 250px;
+      height:200px;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+
+  .section3{
+      display: flex;
+      gap: 2rem;
+      
+  }
+
+  .section3 ul li span{
+    background: gray;
+    border-radius: 5px;
+  }
+  .container4{
+    display: flex;
+    border-radius: 12px;
+    background-color: rgb(255, 245, 235);
+    border: 1px solid;
+    border-radius: 8px;
+    width: 300px;
+    min-height: 100px;
+    overflow: hidden;   
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }
+
+  .container5{
+    display: flex;
+    border-radius: 12px;
+    background-color: rgb(255, 245, 235);
+    border: 1px solid;
+    border-radius: 8px;
+    width: 300px;
+    min-height: 100px;
+    overflow: hidden;   
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
